@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/*Nav bar should haved a fixed position*/
+.top-nav {
+  width: 100%;
+  background: rgba(120,120,120, 0.2);
+  border: solid 1px #f1f1f1;
+}
+
+.red-line {
+width: 80%;
+height: 10px;
+background-color: red;
+color: red;
+position: relative;
+bottom: 8px;
+}
+
+.logo {
+float:left;
+position: relative;
+bottom: 34px;
+left: 225px;
+width: 100px;
+height: 17px;
+}
+
+.search {
+float: right;
+position: relative;
+bottom: 40px;
+right: 180px;
+width: 20px;
+}
+
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-left: 23.5em;
+  color: blue;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-main {
+  margin: 1rem 0.5rem;
+  margin-left: 10em;
+}
+
+
+.nav-search {
+  margin: 1.5em 0.5rem 0.5rem;
+  position: absolute;
+  right: 15em;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+
+.container {
+  dispaly: -webkit-flex;
+  display: flex;
+}
+
+.left {
+  margin-left: 14em;
+}
+
+.right {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  /*width: 24em;
+  height: 15em;
+  margin-left: 5em;*/
+}
+
+.item2 {
+
+}
+
+.item3 {
+
+}
+
+.item4 {
+  /*height: 240px;*/
+}
+
+.item5 {
+/*height: 154px;*/
+}
+
+.new_projects {
+  margin-left: 150px;
+}
+
+.new {
+  color: red;
+}
+
+h3 {
+  margin-left: 414px;
+}
+
+.three-column {
+  padding: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+  max-width: 46em;
+  margin-left: 25em;
+}
